@@ -8,7 +8,7 @@ namespace baca_tulis_berkas
         //start main
         static void Main(string[] args)
         {
-            StreamWriter tls = new StreamWriter ("rahasia.txt");
+            StreamWriter tls = new StreamWriter ("C:\\Users\\sendr\\Documents\\Experiment_Result\\rahasia.txt");
 
             tls.WriteLine("I'll win over army");
             tls.WriteLine ("big plan by lier");
@@ -23,7 +23,7 @@ namespace baca_tulis_berkas
                 tempat_nya = (tempat_nya == "di mall") ? "downtown" : "di mall";
             }//end loop 1
 
-            tls.Close(); //<-- needd always
+            tls.Close(); //<-- need always
 
 
         } //end main
